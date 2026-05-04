@@ -1,8 +1,9 @@
 ---
-import ToolCard from "@/components/ToolCard.astro";
-import tools from "@/data/tools.json";
+import ToolCard from "@/components/ToolCard.astro"
+import tools from "@/data/tools.json"
 ---
-  <div class="flex flex-wrap justify-center gap-6 mx-auto max-w-300 px-4">
+
+<div class="flex flex-wrap justify-center gap-6 mx-auto max-w-300 px-4">
   {tools.map((tool) => (
     <ToolCard
       imageName={tool.imageName}
