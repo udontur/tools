@@ -28,10 +28,11 @@ const images = import.meta.glob<{default: ImageMetadata}>(
 );
 
 ---
-<a href={url}>
+
   <Card
     className="w-full max-w-87"
   >
+    <a class="py-6" href={url}>
     <CardHeader>
       <Image
         class="rounded-[10px] mb-3"
@@ -54,5 +55,5 @@ const images = import.meta.glob<{default: ImageMetadata}>(
       <Badge variant="outline">{whenMade}</Badge>
       <LinkOutIcon height={20} fill="currentColor"/>
     </CardContent>
+    </a>
   </Card>
-</a>
