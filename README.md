@@ -2,8 +2,8 @@
 A collection of tools I've made over the years to make my life a little easier.
 
 ## Todo
-- [ ] Replace image
-- [ ] Add a favicon
+- [x] Replace image
+- [x] Add a favicon
 - [ ] Test out the app
 - [ ] Biome check
 - [ ] page speed check
