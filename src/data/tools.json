@@ -4,19 +4,19 @@
     "description": "Simple clock in dark mode that, zero distractions, maximized clock",
     "whenMade": "Jul 2023",
     "imageName": "clock.png",
-    "url": "tools.hadrian.cc/clock"
+    "url": "https://tools.hadrian.cc/clock"
   },
   {
     "name": "Umpire",
     "description": "Stress-free competitive programming helper that handles all the compiling, executions, and testing. ",
     "whenMade": "Jun 2025",
     "imageName": "umpire.png",
-    "url": "github.com/udontur/umpire"
+    "url": "https://github.com/udontur/umpire"
   },
   {
     "name": "PWA Nix Desktop",
     "description": "A template for creating a PWA desktop app in Nix, with a dead simple configuration process",
-    "whenMade": "Jan 2026",
+    "whenMade": "Feb 2026",
     "imageName": "pwa-nix.png",
     "url": "https://github.com/udontur/pwa-desktop-nix"
   },
@@ -25,7 +25,7 @@
     "description": "Simple pomodoro timer with dark mode",
     "whenMade": "Feb 2025",
     "imageName": "pomodoro.png",
-    "url": "tools.hadrian.cc/pomodoro"
+    "url": "https://tools.hadrian.cc/pomodoro"
   },
   {
     "name": "OSSD Mark Calculator",
