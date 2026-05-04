@@ -5,7 +5,7 @@ import tools from "@/data/tools.json";
   <div class="flex flex-wrap justify-center gap-6 mx-auto max-w-300 px-4">
   {tools.map((tool) => (
     <ToolCard
-      imageName="hockey.jpg"
+      imageName={tool.imageName}
       name={tool.name}
       description={tool.description}
       whenMade={tool.whenMade}

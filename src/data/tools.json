@@ -4,7 +4,7 @@
     "description": "Simple clock in dark mode that, zero distractions, maximized clock",
     "whenMade": "Jul 2023",
     "imageName": "clock.png",
-    "url": "https://tools.hadrian.cc/clock"
+    "url": "https://clock.hadrian.cc"
   },
   {
     "name": "Umpire",
@@ -25,7 +25,7 @@
     "description": "Simple pomodoro timer with dark mode",
     "whenMade": "Feb 2025",
     "imageName": "pomodoro.png",
-    "url": "https://tools.hadrian.cc/pomodoro"
+    "url": "https://pomodoro.hadrian.cc/"
   },
   {
     "name": "OSSD Mark Calculator",
