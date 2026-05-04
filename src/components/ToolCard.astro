@@ -7,8 +7,11 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
+
 import type { ImageMetadata } from "astro";
 import { Image } from "astro:assets";
+
 
 interface Props {
   imageName: string;
@@ -26,26 +29,24 @@ const images = import.meta.glob<{default: ImageMetadata}>(
 ---
 <a href={url}>
   <Card className="w-full max-w-87">
-
-      <CardHeader>
-        <Image
-          class="rounded-xs mb-3"
-          src={images[imagePath]()}
-          alt="Desc"
-          width={300}
-        />
-        <div>
-          <CardTitle>
-            {name}
-          </CardTitle>
-          <CardDescription>
-            {description}
-          </CardDescription>
-        </div>
-      </CardHeader>
-      <CardContent>
-
-      </CardContent>
-
+    <CardHeader>
+      <Image
+        class="rounded-xs mb-3"
+        src={images[imagePath]()}
+        alt="Desc"
+        width={300}
+      />
+      <div>
+        <CardTitle>
+          {name}
+        </CardTitle>
+        <CardDescription>
+          {description}
+        </CardDescription>
+      </div>
+    </CardHeader>
+    <CardContent>
+      <Badge variant="outline">{whenMade}</Badge>
+    </CardContent>
   </Card>
 </a>
