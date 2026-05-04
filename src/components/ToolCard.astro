@@ -1,7 +1,6 @@
 ---
 import {
   Card,
-  CardAction,
   CardContent,
   CardDescription,
   CardFooter,
@@ -13,15 +12,40 @@ import { Image } from "astro:assets";
 
 interface Props {
   imageName: string;
+  name: string;
+  description: string;
+  whenMade: string;
+  url: string;
 }
-const {imageName} = Astro.props;
+const {imageName, name, description, whenMade, url} = Astro.props;
 const imagePath = "/src/assets/image/" + imageName;
 const images = import.meta.glob<{default: ImageMetadata}>(
   "/src/assets/image/*.{jpg,jpeg,png}"
 );
 
 ---
+<a href={url}>
+  <Card className="w-full max-w-87">
 
-<Card>
-  <Image src={images[imagePath]()} alt="Desc"/>
-</Card>
+      <CardHeader>
+        <Image
+          class="rounded-xs mb-3"
+          src={images[imagePath]()}
+          alt="Desc"
+          width={300}
+        />
+        <div>
+          <CardTitle>
+            {name}
+          </CardTitle>
+          <CardDescription>
+            {description}
+          </CardDescription>
+        </div>
+      </CardHeader>
+      <CardContent>
+
+      </CardContent>
+
+  </Card>
+</a>
