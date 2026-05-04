@@ -31,7 +31,7 @@ const images = import.meta.glob<{ default: ImageMetadata }>(
       <Image
         class="rounded-[10px] mb-3"
         src={images[imagePath]()}
-        alt="Desc"
+        alt={name+"\'s project demo image"}
         width={300}
       />
       <div>
