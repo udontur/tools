@@ -1,9 +1,9 @@
 ---
 let buildNumber = "NOT_PRODUCTION"
 let envBuildNumber = import.meta.env.PUBLIC_VERCEL_GIT_COMMIT_SHA
-// if (import.meta.env.PROD) {
-//   buildNumber = envBuildNumber.slice(0, 7)
-// }
+if (import.meta.env.PROD) {
+  buildNumber = envBuildNumber.slice(0, 7)
+}
 ---
 
 <div class="flex justify-center">
