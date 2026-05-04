@@ -30,30 +30,30 @@ const images = import.meta.glob<{default: ImageMetadata}>(
 ---
 
   <Card
-    className="w-full max-w-87"
+    className="w-full"
   >
-    <a class="py-6" href={url}>
-    <CardHeader>
-      <Image
-        class="rounded-[10px] mb-3"
-        src={images[imagePath]()}
-        alt="Desc"
-        width={300}
-      />
-      <div>
-        <CardTitle>
-          {name}
-        </CardTitle>
-        <CardDescription>
-          {description}
-        </CardDescription>
-      </div>
-    </CardHeader>
-    <CardContent
-      className="flex items-center justify-between"
-    >
-      <Badge variant="outline">{whenMade}</Badge>
-      <LinkOutIcon height={20} fill="currentColor"/>
-    </CardContent>
+    <a class="py-6 h-full flex flex-col justify-between" href={url}>
+      <CardHeader>
+        <Image
+          class="rounded-[10px] mb-3"
+          src={images[imagePath]()}
+          alt="Desc"
+          width={300}
+        />
+        <div>
+          <CardTitle>
+            {name}
+          </CardTitle>
+          <CardDescription>
+            {description}
+          </CardDescription>
+        </div>
+      </CardHeader>
+      <CardContent
+        className="flex items-center justify-between"
+      >
+        <Badge variant="outline">{whenMade}</Badge>
+        <LinkOutIcon height={20} fill="currentColor"/>
+      </CardContent>
     </a>
   </Card>
