@@ -29,7 +29,7 @@ const images = import.meta.glob<{ default: ImageMetadata }>(
   <a class="py-6 h-full flex flex-col justify-between" href={url}>
     <CardHeader>
       <Image
-        class="rounded-[10px] mb-3"
+        class="rounded-[10px] mb-3 border"
         src={images[imagePath]()}
         alt={name+"\'s project demo image"}
         width={300}
