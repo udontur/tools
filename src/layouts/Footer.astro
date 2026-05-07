@@ -1,6 +1,6 @@
 ---
 let buildNumber = "NOT_PRODUCTION"
-let envBuildNumber = import.meta.env.CF_PAGES_COMMIT_SHA
+let envBuildNumber = import.meta.env.WORKERS_CI_COMMIT_SHA
 buildNumber=envBuildNumber.slice(0, 8)
 ---
 
