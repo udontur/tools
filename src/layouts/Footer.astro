@@ -1,7 +1,9 @@
 ---
 let buildNumber = "NOT_PRODUCTION"
 let envBuildNumber = import.meta.env.CF_PAGES_COMMIT_SHA
-buildNumber=envBuildNumber.slice(0, 8)
+if (envBuildNumber != undefined) {
+  buildNumber = envBuildNumber.slice(0, 8)
+}
 ---
 
 <div class="flex justify-center">
@@ -13,8 +15,8 @@ buildNumber=envBuildNumber.slice(0, 8)
       class="text-inherit underline decoration-solid"
       href={"https://github.com/udontur/tools/tree/"+envBuildNumber}
     >
-      {buildNumber}
-    </a>
+      {buildNumber}</a
+    >
     made with passion by
     <a href="https://hadrian.cc">Hadrian</a>
   </div>
