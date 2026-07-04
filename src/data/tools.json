@@ -1,21 +1,21 @@
 [
   {
     "name": "Minimal clock",
-    "description": "Simple clock in dark mode that, zero distractions, maximized clock",
+    "description": "Simple clock in dark mode that, zero distractions, maximized clock.",
     "whenMade": "Jul 2023",
     "imageName": "clock.png",
     "url": "https://clock.hadrian.cc"
   },
   {
     "name": "Umpire",
-    "description": "Stress-free competitive programming helper that handles all the compiling, executions, and testing. ",
+    "description": "Stress-free competitive programming helper that handles all the compiling, executions, and testing.",
     "whenMade": "Jun 2025",
     "imageName": "umpire.png",
     "url": "https://github.com/udontur/umpire"
   },
   {
     "name": "PWA Nix Desktop",
-    "description": "A template for creating a PWA desktop app in Nix, with a dead simple configuration process",
+    "description": "A template for creating a PWA desktop app in Nix, with a dead simple configuration process.",
     "whenMade": "Feb 2026",
     "imageName": "pwa-nix.png",
     "url": "https://github.com/udontur/pwa-desktop-nix"
@@ -29,14 +29,14 @@
   },
   {
     "name": "Pomodoro timer",
-    "description": "Simple pomodoro timer with dark mode",
+    "description": "Simple pomodoro timer with dark mode.",
     "whenMade": "Feb 2025",
     "imageName": "pomodoro.png",
     "url": "https://pomodoro.hadrian.cc/"
   },
   {
     "name": "OSSD Mark Calculator",
-    "description": "CLI program to calculate the final mark in OSSD",
+    "description": "CLI program to calculate the final mark in OSSD.",
     "whenMade": "May 2024",
     "imageName": "osc.png",
     "url": "https://github.com/udontur/osc"
