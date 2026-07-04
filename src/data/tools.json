@@ -21,6 +21,13 @@
     "url": "https://github.com/udontur/pwa-desktop-nix"
   },
   {
+    "name": "Hockey Stick Selector",
+    "description": "A terminal tool that finds your ideal hockey stick specs.",
+    "whenMade": "Jun 2026",
+    "imageName": "hockey-stick.png",
+    "url": "https://github.com/udontur/hockey-stick"
+  },
+  {
     "name": "Pomodoro timer",
     "description": "Simple pomodoro timer with dark mode",
     "whenMade": "Feb 2025",
