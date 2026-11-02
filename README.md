@@ -1,4 +1,6 @@
 # 🛠️ tools.hadrian.cc
-A website, [tools.hadrian.cc](https://tools.hadrian.cc), for displaying the tools I have made.
+A website ([tools.hadrian.cc](https://tools.hadrian.cc)) for displaying the tools I have made.
 
-It's for practicing Astro.
+The website is no longer deployed because I don't need it.
+
+![demo](assets/demo.png)
